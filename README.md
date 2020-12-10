@@ -21,3 +21,4 @@ database_url = os.getenv(
 * Push the changes to Heroku Remote.
 
 # Blog Link 
+https://flaskblogsai.herokuapp.com/
