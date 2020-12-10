@@ -49,9 +49,9 @@ class Posts(db.Model):
     __tablename__ = 'posts'
 
     sno = Column(Integer, primary_key=True)
-    title = Column(String(30), nullable=False)
-    tagline = Column(String(500), nullable=False)
-    slug = Column(String(30), nullable=False)
+    title = Column(String(3000), nullable=False)
+    tagline = Column(String(5000), nullable=False)
+    slug = Column(String(3000), nullable=False)
     content = Column(Text, nullable=False)
     date = Column(DateTime, nullable=True)
     img_file = Column(String(12), nullable=True)
